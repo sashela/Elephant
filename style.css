@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Poppins";
+    
+    /*overscroll-behavior: none; */ /* do this later when website has more pages  */
+}
+
+.header{
+    height: 140vh;
+    max-width: 100%;
+    background-image: url(elephant.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    box-shadow: 3px 3px 5px;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.navbar{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.navbar a{
+    flex: 1;
+    text-align: right;
+    font-size: 1.8vw;
+
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 2px;
+    padding-right:15px;
+}
+.logo a{
+    font-size: 3vw;
+}
+.logo a:hover{
+    color: orangered;
+}
+
+.navbar ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: orangered;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.navbar ul li:hover:after{
+    width: 100%;
+
+}
+.textbox{
+    width: 90%;
+    color: whitesmoke;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    overflow: visible;
+}
+.textbox h1{
+    font-size: 5vw;
+}
+
+.textbox p{
+    font-size: 2.5vw;
+    padding: 10px;
+}
+
+.button{
+    border: 1px solid ;
+    border-radius: 10px;
+    padding: 9px;
+
+    
+    display: inline-block;
+    background: transparent;
+    position: relative;
+   
+
+}
+.button:hover{
+    border-color: orangered;
+    background: orangered;
+    transition: 1s;
+}
+
+/* This is the second section */
+.our-work{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.our-work h1{
+    font-size: 4vw;
+    
+}
+.our-work p{
+    font-size: 1.7vw;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+      
+    justify-content: space-between;
+}
+.elephant1{
+    flex-basis: 31%;
+    background: #fff3f3;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.elephant1 h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    font-size: 2.8vw;
+}
+.elephant1:hover{
+    box-shadow: 0 0 20px rgba(255, 17, 0, 0.158);
+}
+
+
+/* values section*/
+
+
+
+.text img{
+    width: 40%;
+    
+    float: left;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-right: 5%  ;
+    transition: 0.5s;
+}
+.text img:hover{
+    box-shadow: 0px 0px 20px rgba(0, 255, 8, 0.158);
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 120hv;
+    background-color: white;
+    margin: 20px auto;
+    width: 80%;
+   
+}
+.text{
+    margin-bottom: 30px;
+}
+.text h2{
+font-size: 3.3vw;
+margin-bottom: 10px;
+}
+
+.text p{
+    font-size: 1.2vw;
+}
+
+.head h1{
+ font-size: 4vw ;    
+}
+
+.head p{
+    font-size: 1.7vw;
+}
+
+.head{
+    text-align: center;
+    margin: 35px;
+}
+
+.img2{
+width: 10%;
+}
+
+.wrapper2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 120hv;
+    background-color: white;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.text2 img{
+    width: 42%;
+    margin-top: 30px;
+    float: right;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-left: 5%  ;
+    transition: 0.5s;
+
+}
+
+.text2 h2{
+    font-size: 3.3vw;
+    margin-bottom: 10px;
+    }
+    
+.text2 p{
+        font-size: 1.1vw;
+    }
+
+.text2{
+    margin-top: 20px;
+}
